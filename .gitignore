@@ -1,0 +1,35 @@
+# Node / frontend
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.vite/
+
+# Python / backend
+__pycache__/
+*.py[cod]
+backend/venv/
+.venv/
+venv/
+*.egg-info/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+service-account*.json
+*-credentials.json
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
+
+# Editor and Claude Code local settings
+.idea/
+.vscode/
+.claude/settings.local.json
